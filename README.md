@@ -1,3 +1,14 @@
+# Project Notes:
+
+This project expects the cat backend to be running at localhost:3001.
+
+## Testing
+I would use Jest to implement tests around the functionality of the site. Focus would be on adding cats to the cart, clearing the cart, and the calculation of the total price.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
