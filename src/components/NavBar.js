@@ -4,7 +4,7 @@ import ShoppingCart from './ShoppingCart';
 
 const NavBar = (props) => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" onClick={props.toggleShoppingCart}>
           <span className="icon is-large">

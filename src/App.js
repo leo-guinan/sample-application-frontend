@@ -50,7 +50,7 @@ const App = () => {
           setError(error);
         }
       );
-  }, [cats]);
+  }, []);
 
   return (
     <div classname="main is-clipped">
@@ -66,9 +66,9 @@ const App = () => {
         {error && <div>Error: {error.message}</div>}
         {!isLoaded && <div>Loading...</div>}
         {!error && isLoaded && (
-          <div className="columns is-multiline 	">
+          <div className="columns is-multiline is-centered	">
             {cats.map((cat) => (
-              <div className="column is-one-quarter is-justify-content-center" key={"cat_" + cat.id}>
+              <div className="column is-one-quarter has-text-centered" key={"cat_" + cat.id}>
                 <Cat
                   name={cat.name}
                   price={cat.price}

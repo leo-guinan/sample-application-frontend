@@ -6,9 +6,10 @@
 const Cat = (props) => {
   return (
     <div>
-      <div className="image is-128x128">
+      <figure className="image is-128x128 is-inline-block">
+
         <img src={props.imgSrc} />
-      </div>
+      </figure>
       <div>Name: {props.name}</div>
       <div>Price: {props.price}</div>
       <div>{props.button}</div>

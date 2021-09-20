@@ -23,8 +23,8 @@ const ShoppingCart = (props) => {
                 ))}
               </div>
 
-              <footer class="modal-card-foot">
-                <button class="button" onClick={props.clearCart}>
+              <footer className="modal-card-foot">
+                <button className="button" onClick={props.clearCart}>
                   Clear Cart
                 </button>
               </footer>
